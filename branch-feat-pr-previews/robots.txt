@@ -1,4 +1,0 @@
-# Disallow all crawling in github pages
-# Official server has its own robots.txt
-User-agent: *
-Disallow: /

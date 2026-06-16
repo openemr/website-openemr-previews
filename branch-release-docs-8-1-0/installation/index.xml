@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installations on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-0/installation/</link><description>Recent content in Installations on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-0/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing OpenEMR 8.1.0</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-0/installation/8.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-0/installation/8.1.0/</guid><description>&lt;div class="release-status release-status-final" role="status"&gt;
+ &lt;strong&gt;FINAL&lt;/strong&gt; — OpenEMR &lt;code&gt;8.1.0&lt;/code&gt; released 2026-06-04.
+&lt;/div&gt;
+&lt;h1 id="installing-openemr-810"&gt;Installing OpenEMR 8.1.0&lt;/h1&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP 8.2 or newer with the OpenEMR-required extensions installed.&lt;/li&gt;
+&lt;li&gt;MySQL 5.7+ or MariaDB 10.4+.&lt;/li&gt;
+&lt;li&gt;Apache 2.4+ or Nginx 1.18+ in front of PHP-FPM.&lt;/li&gt;
+&lt;li&gt;A modern web browser for the setup wizard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="download"&gt;Download&lt;/h2&gt;
+&lt;p&gt;Download the OpenEMR 8.1.0 release tarball:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/releases/download/v8_1_0/openemr-8.1.0.tar.gz"&gt;openemr-8.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="install"&gt;Install&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Extract the tarball into your web server&amp;rsquo;s document root.&lt;/li&gt;
+&lt;li&gt;Set file permissions according to the OpenEMR installation guide.&lt;/li&gt;
+&lt;li&gt;Browse to &lt;code&gt;https://your-server/openemr/setup.php&lt;/code&gt; and follow the wizard.&lt;/li&gt;
+&lt;li&gt;Complete database setup, admin account creation, and initial configuration.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="after-install"&gt;After install&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Review the &lt;a href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-0/docs/administration/"&gt;administrator manual&lt;/a&gt; for first-time
+configuration.&lt;/li&gt;
+&lt;li&gt;Apply the &lt;a href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-0/docs/security/"&gt;security checklist&lt;/a&gt; before exposing the
+installation publicly.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

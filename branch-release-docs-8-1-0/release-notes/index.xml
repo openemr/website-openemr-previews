@@ -51,6 +51,7 @@
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11294"&gt;#11294&lt;/a&gt; feat(encryption): Add encrypt methods to new ciphers — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11250"&gt;#11250&lt;/a&gt; feat(phpstan): forbid direct access to request superglobals — @kojiromike&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11001"&gt;#11001&lt;/a&gt; feat(config): Start to set up PSR-11 DI container — @Firehed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11001"&gt;#11001&lt;/a&gt; feat(config): Start to set up PSR-11 DI container — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11138"&gt;#11138&lt;/a&gt; feat(database): Add ConnectionManager for named database connections — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10795"&gt;#10795&lt;/a&gt; feat(phpstan): Add rule for blocking direct instantiation of certain classes — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10778"&gt;#10778&lt;/a&gt; feat(db): Migrate ADODB setup in Gacl to new factory method — @Firehed&lt;/li&gt;
@@ -249,7 +250,6 @@
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11004"&gt;#11004&lt;/a&gt; fix(messages): replace misleading unauthorized template with silent return (#10686) — @craigrallen&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11251"&gt;#11251&lt;/a&gt; fix(schema): remove 0000-00-00 values from document_templates inserts — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10999"&gt;#10999&lt;/a&gt; fix(docs): correct spelling errors caught by codespell — @Firehed&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10664"&gt;#10664&lt;/a&gt; fix(sql): wrap scalar values in arrays for SQL function params — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11007"&gt;#11007&lt;/a&gt; fix(phpstan): add types and fix errors in ClientAdminController — @kojiromike&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10998"&gt;#10998&lt;/a&gt; fix(db): remove dynamically created onsite_activity_view — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10939"&gt;#10939&lt;/a&gt; fix(session): replace direct $_SESSION writes with SessionUtil::setSession() — @kojiromike&lt;/li&gt;
@@ -929,6 +929,7 @@
 &lt;/ul&gt;
 &lt;h2 id="other"&gt;Other&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12558"&gt;#12558&lt;/a&gt; ci(deps): bump actions/checkout from 6 to 7 — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12586"&gt;#12586&lt;/a&gt; docs(ci): document release-targets.yml as master-authoritative — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12574"&gt;#12574&lt;/a&gt; ci(pre-commit): broaden workflow to validate every upstream hook on &amp;ndash;all-files — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12573"&gt;#12573&lt;/a&gt; style(pre-commit): split pretty-format-json into per-ecosystem 2-space/4-space blocks — @bradymiller&lt;/li&gt;

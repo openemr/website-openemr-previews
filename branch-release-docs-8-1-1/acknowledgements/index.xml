@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Acknowledgements on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/acknowledgements/</link><description>Recent content in Acknowledgements on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/acknowledgements/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEMR 8.1.1 Acknowledgements</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/acknowledgements/8.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/acknowledgements/8.1.1/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-810&lt;/code&gt; @ &lt;code&gt;e78f437&lt;/code&gt;. Content regenerates on every push and is subject to change.
+&lt;/div&gt;
+&lt;h1 id="openemr-811--acknowledgements"&gt;OpenEMR 8.1.1 — Acknowledgements&lt;/h1&gt;
+&lt;p&gt;OpenEMR 8.1.1 exists thanks to the work of the following contributors.
+Counts reflect commits to 8.1.1 on the openemr/openemr repository.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brady Miller (5 commits)&lt;/li&gt;
+&lt;li&gt;openemr-release-bot[bot] (3 commits)&lt;/li&gt;
+&lt;li&gt;Michael A. Smith (1 commit)&lt;/li&gt;
+&lt;li&gt;Stephen Waite (1 commit)&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Notes on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/release-notes/</link><description>Recent content in Release-Notes on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEMR 8.1.1 Release Notes</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/release-notes/8.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-1-1/release-notes/8.1.1/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-810&lt;/code&gt; @ &lt;code&gt;e78f437&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-810&lt;/code&gt; @ &lt;code&gt;0b5a720&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-811--release-notes"&gt;OpenEMR 8.1.1 — Release Notes&lt;/h1&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12647"&gt;#12647&lt;/a&gt; feat(docker): declare HOST_UID/HOST_GID env in dev compose files — @bradymiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12642"&gt;#12642&lt;/a&gt; feat(flex): honor HOST_UID/HOST_GID for apache uid alignment — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12609"&gt;#12609&lt;/a&gt; feat(docker): add fsupgrade-11.sh for 8.1.1 release (master sync) — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12608"&gt;#12608&lt;/a&gt; feat(docker): add fsupgrade-11.sh for 8.1.1 release on rel-810 — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12603"&gt;#12603&lt;/a&gt; feat(codes): Modernized DBAL/ORM service path for code type syncing — @Firehed&lt;/li&gt;
@@ -19,6 +21,8 @@
 &lt;/ul&gt;
 &lt;h2 id="bug-fixes"&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12632"&gt;#12632&lt;/a&gt; fix(docker): irp imports 0 patients because synthea output is in root-only /root/ — @bradymiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12547"&gt;#12547&lt;/a&gt; fix(docker): checkout repo before flex build to dodge submodule recursion — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12604"&gt;#12604&lt;/a&gt; fix(ci): Restore Inferno after docker rearranging — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12597"&gt;#12597&lt;/a&gt; fix(ci): docker-validate-release-targets reads master version.php from PR checkout — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12594"&gt;#12594&lt;/a&gt; fix(ci): sync-byte-identical handles rename + removed-from-config — @bradymiller&lt;/li&gt;
@@ -26,7 +30,6 @@
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12538"&gt;#12538&lt;/a&gt; fix(insurance): clear phone_numbers before re-insert in legacy persist + cleanup migration — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12570"&gt;#12570&lt;/a&gt; fix(contrib): repair trailing comma in Pain_Initial_Assessment.json — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12548"&gt;#12548&lt;/a&gt; fix(docker): add php-posix to the flex image apk install list — @bradymiller&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12547"&gt;#12547&lt;/a&gt; fix(docker): checkout repo before flex build to dodge submodule recursion — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12529"&gt;#12529&lt;/a&gt; fix(persist): skip phones the legacy parts schema cannot represent (insurance + pharmacy) — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12524"&gt;#12524&lt;/a&gt; fix(deps): Harden dependencies by pulling in security meta-package — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12525"&gt;#12525&lt;/a&gt; fix: prevent PHP 8 TypeError in Claim::payerCount() and procCount() — @rtmalikian&lt;/li&gt;
@@ -45,6 +48,7 @@
 &lt;/ul&gt;
 &lt;h2 id="refactoring"&gt;Refactoring&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12633"&gt;#12633&lt;/a&gt; refactor(db): Move doctrine/migrations config — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12590"&gt;#12590&lt;/a&gt; refactor(ci): relocate docker/compose.yml to .github/docker/ — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12578"&gt;#12578&lt;/a&gt; refactor(ci): extract sync-byte-identical bash into a tested script — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12576"&gt;#12576&lt;/a&gt; refactor(ci): trim docker/.gitignore + docker/COVERAGE.md from byte-identical set — @bradymiller&lt;/li&gt;
@@ -55,6 +59,22 @@
 &lt;/ul&gt;
 &lt;h2 id="chores"&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12646"&gt;#12646&lt;/a&gt; chore(deps): bump the openemr-images group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12644"&gt;#12644&lt;/a&gt; chore(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12640"&gt;#12640&lt;/a&gt; chore(deps): bump the openemr-images group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12637"&gt;#12637&lt;/a&gt; chore(deps): bump the phpmyadmin group across 3 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12635"&gt;#12635&lt;/a&gt; chore(deps): bump the couchdb group across 2 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12634"&gt;#12634&lt;/a&gt; chore(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12625"&gt;#12625&lt;/a&gt; chore(deps): bump selenium/standalone-chromium from 148.0.7778.178 to 149.0.7827.155 in /docker/development-insane in the selenium group across 1 directory — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12614"&gt;#12614&lt;/a&gt; chore: gitignore .worktrees.json.lock/ directory — @bradymiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12620"&gt;#12620&lt;/a&gt; chore(deps): bump the selenium group across 2 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12628"&gt;#12628&lt;/a&gt; chore(deps): bump the openemr-images group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12621"&gt;#12621&lt;/a&gt; chore(deps): bump the phpmyadmin group across 3 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12616"&gt;#12616&lt;/a&gt; chore(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12615"&gt;#12615&lt;/a&gt; chore(deps): bump selenium/standalone-chromium from 148.0.7778.178 to 149.0.7827.155 in /ci/compose-shared-selenium in the selenium-updates group across 1 directory — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12617"&gt;#12617&lt;/a&gt; chore(deps): bump the couchdb group across 2 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12545"&gt;#12545&lt;/a&gt; chore(deps): bump guzzlehttp/guzzle from 7.11.1 to 7.12.1 in /interface/modules/custom_modules/oe-module-faxsms — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12600"&gt;#12600&lt;/a&gt; chore(deps): bump uuid from 14.0.0 to 14.0.1 in /ccdaservice — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12601"&gt;#12601&lt;/a&gt; chore(phpstan): refresh RESERVED_WORD_SUPPLEMENT — @openemr-reserved-word-bot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12556"&gt;#12556&lt;/a&gt; chore(deps): bump claimrevolution/oe-module-claimrev-connect from 2.1.4 to 2.1.5 — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12554"&gt;#12554&lt;/a&gt; chore(deps-dev): bump justinrainbow/json-schema from 6.9.0 to 6.10.0 — @dependabot[bot]&lt;/li&gt;
@@ -156,6 +176,7 @@
 &lt;/ul&gt;
 &lt;h2 id="other"&gt;Other&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12613"&gt;#12613&lt;/a&gt; docs: document new openemr-cmd worktree add -b default and &amp;ndash;base flag — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12607"&gt;#12607&lt;/a&gt; ci(deps): bump the openemr-images group across 23 directories with 2 updates — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12606"&gt;#12606&lt;/a&gt; ci(deps): bump the openemr-images group across 1 directory with 2 updates — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12605"&gt;#12605&lt;/a&gt; ci(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;

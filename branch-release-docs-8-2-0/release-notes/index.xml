@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Notes on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/</link><description>Recent content in Release-Notes on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEMR 8.2.0 Release Notes</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;856e6f8&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;406bb70&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-820--release-notes"&gt;OpenEMR 8.2.0 — Release Notes&lt;/h1&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12753"&gt;#12753&lt;/a&gt; feat(bc): add internal deprecation utility — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12651"&gt;#12651&lt;/a&gt; feat(docker): declare HOST_UID/HOST_GID env in insane dev compose — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12647"&gt;#12647&lt;/a&gt; feat(docker): declare HOST_UID/HOST_GID env in dev compose files — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12642"&gt;#12642&lt;/a&gt; feat(flex): honor HOST_UID/HOST_GID for apache uid alignment — @bradymiller&lt;/li&gt;
@@ -53,6 +54,9 @@
 &lt;/ul&gt;
 &lt;h2 id="refactoring"&gt;Refactoring&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12766"&gt;#12766&lt;/a&gt; refactor(oe-module-faxsms): Fix SignalWire fax support in oe-module-faxsms — @bradymiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12526"&gt;#12526&lt;/a&gt; refactor(oe-module-faxsms): Fix SignalWire fax support in oe-module-faxsms — @sjpadgett&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12763"&gt;#12763&lt;/a&gt; refactor(globals): Integrate OEGlobalsBag key deprecation tooling — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12689"&gt;#12689&lt;/a&gt; refactor(session): Adopt DTO for settings &amp;amp; tidy cookie path — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12698"&gt;#12698&lt;/a&gt; refactor(audit): Centralize and simplify &amp;ldquo;should log&amp;rdquo; logic — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12655"&gt;#12655&lt;/a&gt; refactor(audit): Add multi-sink destination — @Firehed&lt;/li&gt;
@@ -67,6 +71,14 @@
 &lt;/ul&gt;
 &lt;h2 id="chores"&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12764"&gt;#12764&lt;/a&gt; chore(phpstan): Fix weird variant type in legacy phreeze path — @Firehed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12761"&gt;#12761&lt;/a&gt; chore(deps): bump the openemr-images group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12758"&gt;#12758&lt;/a&gt; chore(deps): bump the mariadb group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12755"&gt;#12755&lt;/a&gt; chore(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12756"&gt;#12756&lt;/a&gt; chore(deps): bump the phpmyadmin group across 3 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12754"&gt;#12754&lt;/a&gt; chore(deps): bump the mariadb group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12748"&gt;#12748&lt;/a&gt; chore(deps): bump the openemr-images group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12746"&gt;#12746&lt;/a&gt; chore(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12706"&gt;#12706&lt;/a&gt; chore(coderabbit): skip auto-review on bot-authored PRs — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12703"&gt;#12703&lt;/a&gt; chore(deps): bump the openemr-images group across 19 directories with 1 update — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12701"&gt;#12701&lt;/a&gt; chore(deps): bump the openemr-images group across 4 directories with 1 update — @dependabot[bot]&lt;/li&gt;

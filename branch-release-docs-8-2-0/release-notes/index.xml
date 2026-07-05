@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Notes on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/</link><description>Recent content in Release-Notes on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEMR 8.2.0 Release Notes</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;c983ddd&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;0d01c5e&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-820--release-notes"&gt;OpenEMR 8.2.0 — Release Notes&lt;/h1&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
@@ -820,6 +820,7 @@
 &lt;/ul&gt;
 &lt;h2 id="other"&gt;Other&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12774"&gt;#12774&lt;/a&gt; ci(all-checks-passed): trigger on rel-* branches — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12720"&gt;#12720&lt;/a&gt; ci(docker): trigger orchestrator on push to release-targets.yml — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12708"&gt;#12708&lt;/a&gt; ci(claude-review): pin orchestrator to Sonnet, drop the premium Opus default — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12707"&gt;#12707&lt;/a&gt; ci(claude-review): drop show_full_output debug flag — @bradymiller&lt;/li&gt;

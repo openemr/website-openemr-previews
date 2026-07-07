@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Notes on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/</link><description>Recent content in Release-Notes on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEMR 8.2.0 Release Notes</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;4495382&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;e6816cc&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-820--release-notes"&gt;OpenEMR 8.2.0 — Release Notes&lt;/h1&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12810"&gt;#12810&lt;/a&gt; feat(database): add DBAL query-audit middleware — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12753"&gt;#12753&lt;/a&gt; feat(bc): add internal deprecation utility — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12651"&gt;#12651&lt;/a&gt; feat(docker): declare HOST_UID/HOST_GID env in insane dev compose — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12647"&gt;#12647&lt;/a&gt; feat(docker): declare HOST_UID/HOST_GID env in dev compose files — @bradymiller&lt;/li&gt;
@@ -83,6 +84,8 @@
 &lt;/ul&gt;
 &lt;h2 id="bug-fixes"&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12765"&gt;#12765&lt;/a&gt; fix(ccda): CCDA to pass ONC USCDI V3 test scenarios. — @sjpadgett&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12815"&gt;#12815&lt;/a&gt; fix(ccda): CCDA to pass ONC USCDI V3 test scenarios. — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/11369"&gt;#11369&lt;/a&gt; fix: resolve PHP deprecation warnings and undefined variable errors — @claw-explorer&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12691"&gt;#12691&lt;/a&gt; fix(modules): Move module loading after OPENEMR_GLOBALS_LOADED — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12653"&gt;#12653&lt;/a&gt; fix(gacl): Fix invalid property access in gacl — @Firehed&lt;/li&gt;
@@ -374,6 +377,7 @@
 &lt;/ul&gt;
 &lt;h2 id="refactoring"&gt;Refactoring&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12699"&gt;#12699&lt;/a&gt; refactor(audit): Update audit logger sql path to be DI-friendly — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12526"&gt;#12526&lt;/a&gt; refactor(oe-module-faxsms): Fix SignalWire fax support in oe-module-faxsms — @sjpadgett&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12766"&gt;#12766&lt;/a&gt; refactor(oe-module-faxsms): Fix SignalWire fax support in oe-module-faxsms — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12763"&gt;#12763&lt;/a&gt; refactor(globals): Integrate OEGlobalsBag key deprecation tooling — @Firehed&lt;/li&gt;
@@ -524,6 +528,12 @@
 &lt;/ul&gt;
 &lt;h2 id="chores"&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12801"&gt;#12801&lt;/a&gt; chore(deps): bump guzzlehttp/guzzle from 7.12.3 to 7.13.2 — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12800"&gt;#12800&lt;/a&gt; chore(deps-dev): bump psy/psysh from 0.12.23 to 0.12.24 — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12797"&gt;#12797&lt;/a&gt; chore(deps-dev): bump webpack from 5.108.1 to 5.108.4 in the build-tools group — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12796"&gt;#12796&lt;/a&gt; chore(deps): bump smarty/smarty from 4.5.6 to 4.5.7 — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12799"&gt;#12799&lt;/a&gt; chore(deps): bump twig/twig from 3.27.1 to 3.28.0 — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12802"&gt;#12802&lt;/a&gt; chore(deps): bump google/apiclient from 2.19.3 to 2.19.4 — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12764"&gt;#12764&lt;/a&gt; chore(phpstan): Fix weird variant type in legacy phreeze path — @Firehed&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12706"&gt;#12706&lt;/a&gt; chore(coderabbit): skip auto-review on bot-authored PRs — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12676"&gt;#12676&lt;/a&gt; chore(deps-dev): bump globals from 17.6.0 to 17.7.0 in /ccdaservice — @dependabot[bot]&lt;/li&gt;
@@ -820,6 +830,8 @@
 &lt;/ul&gt;
 &lt;h2 id="other"&gt;Other&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12781"&gt;#12781&lt;/a&gt; ci(deps): bump actions/checkout from 5 to 7 — @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12780"&gt;#12780&lt;/a&gt; ci(deps): bump lewagon/wait-on-check-action from 1.8.0 to 1.8.1 — @dependabot[bot]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12778"&gt;#12778&lt;/a&gt; ci(docker): trigger docker-test-release on version.php bumps — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12774"&gt;#12774&lt;/a&gt; ci(all-checks-passed): trigger on rel-* branches — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12720"&gt;#12720&lt;/a&gt; ci(docker): trigger orchestrator on push to release-targets.yml — @bradymiller&lt;/li&gt;

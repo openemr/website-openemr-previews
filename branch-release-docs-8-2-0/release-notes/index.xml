@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Notes on OpenEMR</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/</link><description>Recent content in Release-Notes on OpenEMR</description><generator>Hugo</generator><language>en-us</language><copyright>OpenEMR Foundation, Inc</copyright><atom:link href="https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEMR 8.2.0 Release Notes</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-0/release-notes/8.2.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;a198867&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;8ca33c3&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-820--release-notes"&gt;OpenEMR 8.2.0 — Release Notes&lt;/h1&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
@@ -86,8 +86,8 @@
 &lt;/ul&gt;
 &lt;h2 id="bug-fixes"&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12831"&gt;#12831&lt;/a&gt; fix(sql-upgrade): skip audit logging on the status poll endpoint — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12826"&gt;#12826&lt;/a&gt; fix(sql-upgrade): server-status polling now terminates reliably — @bradymiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12831"&gt;#12831&lt;/a&gt; fix(sql-upgrade): skip audit logging on the status poll endpoint — @bradymiller&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12652"&gt;#12652&lt;/a&gt; fix(edihistory): strict types string errors — @stephenwaite&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12569"&gt;#12569&lt;/a&gt; fix(core): prevent {headerTemplate} from rendering the page header twice — @dac-ai-worker&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/12821"&gt;#12821&lt;/a&gt; fix(core): prevent {headerTemplate} from rendering the page header twice — @bradymiller&lt;/li&gt;

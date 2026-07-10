@@ -56,8 +56,11 @@ Counts reflect commits to 8.2.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;li&gt;ophthal (1 commit)&lt;/li&gt;
 &lt;li&gt;takidisk (1 commit)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>OpenEMR 8.2.1 Acknowledgements</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-1/acknowledgements/8.2.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-2-1/acknowledgements/8.2.1/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;4b429ba&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-820&lt;/code&gt; @ &lt;code&gt;7bcf423&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-821--acknowledgements"&gt;OpenEMR 8.2.1 — Acknowledgements&lt;/h1&gt;
 &lt;p&gt;OpenEMR 8.2.1 exists thanks to the work of the following contributors.
-Counts reflect commits to 8.2.1 on the openemr/openemr repository.&lt;/p&gt;</description></item></channel></rss>
+Counts reflect commits to 8.2.1 on the openemr/openemr repository.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brady Miller (1 commit)&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

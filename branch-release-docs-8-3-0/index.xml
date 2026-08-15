@@ -1059,13 +1059,13 @@ Counts reflect commits to 8.2.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10872"&gt;#10872&lt;/a&gt; test: add isolated tests for EDI270, event DTOs, Metadata, and oeHttpResponse — @kojiromike&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/openemr/openemr/pull/10484"&gt;#10484&lt;/a&gt; docs(api): add CLI testing tip for special characters in passwords — @fzzio&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>OpenEMR 8.3.0 Acknowledgements</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-3-0/acknowledgements/8.3.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-3-0/acknowledgements/8.3.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-830&lt;/code&gt; @ &lt;code&gt;2b41c10&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-830&lt;/code&gt; @ &lt;code&gt;b006b09&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-830--acknowledgements"&gt;OpenEMR 8.3.0 — Acknowledgements&lt;/h1&gt;
 &lt;p&gt;OpenEMR 8.3.0 exists thanks to the work of the following contributors.
 Counts reflect commits to 8.3.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Brady Miller (157 commits)&lt;/li&gt;
+&lt;li&gt;Brady Miller (158 commits)&lt;/li&gt;
 &lt;li&gt;Michael A. Smith (47 commits)&lt;/li&gt;
 &lt;li&gt;Stephen Waite (21 commits)&lt;/li&gt;
 &lt;li&gt;Eric Stern (19 commits)&lt;/li&gt;

@@ -1080,13 +1080,13 @@ Counts reflect commits to 8.3.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;li&gt;Trevor Hartman (1 commit)&lt;/li&gt;
 &lt;li&gt;baselaka (1 commit)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>OpenEMR 8.4.0 Acknowledgements</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-4-0/acknowledgements/8.4.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-4-0/acknowledgements/8.4.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-840&lt;/code&gt; @ &lt;code&gt;d7f4493&lt;/code&gt;. Content regenerates on every push and is subject to change.
+ &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-840&lt;/code&gt; @ &lt;code&gt;dbc2d90&lt;/code&gt;. Content regenerates on every push and is subject to change.
 &lt;/div&gt;
 &lt;h1 id="openemr-840--acknowledgements"&gt;OpenEMR 8.4.0 — Acknowledgements&lt;/h1&gt;
 &lt;p&gt;OpenEMR 8.4.0 exists thanks to the work of the following contributors.
 Counts reflect commits to 8.4.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Brady Miller (59 commits)&lt;/li&gt;
+&lt;li&gt;Brady Miller (60 commits)&lt;/li&gt;
 &lt;li&gt;Michael A. Smith (46 commits)&lt;/li&gt;
 &lt;li&gt;Stephen Waite (22 commits)&lt;/li&gt;
 &lt;li&gt;Eric Stern (20 commits)&lt;/li&gt;

@@ -1111,8 +1111,8 @@ Counts reflect commits to 8.4.1 on the openemr/openemr repository.&lt;/p&gt;
 &lt;li&gt;Stephen Waite (2 commits)&lt;/li&gt;
 &lt;li&gt;Eric Stern (1 commit)&lt;/li&gt;
 &lt;li&gt;Michael A. Smith (1 commit)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>OpenEMR 8.5.0 Acknowledgements</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-5-0/acknowledgements/8.5.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-5-0/acknowledgements/8.5.0/</guid><description>&lt;div class="release-status release-status-draft" role="status"&gt;
- &lt;strong&gt;DRAFT&lt;/strong&gt; — based on &lt;code&gt;rel-850&lt;/code&gt; @ &lt;code&gt;0d8b870&lt;/code&gt;. Content regenerates on every push and is subject to change.
+&lt;/ul&gt;</description></item><item><title>OpenEMR 8.5.0 Acknowledgements</title><link>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-5-0/acknowledgements/8.5.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openemr.github.io/website-openemr-previews/branch-release-docs-8-5-0/acknowledgements/8.5.0/</guid><description>&lt;div class="release-status release-status-final" role="status"&gt;
+ &lt;strong&gt;FINAL&lt;/strong&gt; — OpenEMR &lt;code&gt;8.5.0&lt;/code&gt; released 2026-10-27.
 &lt;/div&gt;
 &lt;h1 id="openemr-850--acknowledgements"&gt;OpenEMR 8.5.0 — Acknowledgements&lt;/h1&gt;
 &lt;p&gt;OpenEMR 8.5.0 exists thanks to the work of the following contributors.
@@ -1120,18 +1120,15 @@ Counts reflect commits to 8.5.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Brady Miller (151 commits)&lt;/li&gt;
 &lt;li&gt;Stephen Waite (80 commits)&lt;/li&gt;
-&lt;li&gt;Claude Opus 5.5 (75 commits)&lt;/li&gt;
 &lt;li&gt;Jerry Padgett (25 commits)&lt;/li&gt;
 &lt;li&gt;Eric Stern (23 commits)&lt;/li&gt;
 &lt;li&gt;anun333 (20 commits)&lt;/li&gt;
 &lt;li&gt;Marcello Costagliola (16 commits)&lt;/li&gt;
 &lt;li&gt;Michael A. Smith (16 commits)&lt;/li&gt;
 &lt;li&gt;Bryan Dana (5 commits)&lt;/li&gt;
+&lt;li&gt;Stephen Nielson (5 commits)&lt;/li&gt;
 &lt;li&gt;Maazin Kazi (4 commits)&lt;/li&gt;
-&lt;li&gt;OpenEMR Security Sandbox (4 commits)&lt;/li&gt;
-&lt;li&gt;Stephen Nielson (4 commits)&lt;/li&gt;
 &lt;li&gt;doctorman (3 commits)&lt;/li&gt;
-&lt;li&gt;Discover and Change AI Worker (2 commits)&lt;/li&gt;
 &lt;li&gt;Jake Mevorach (2 commits)&lt;/li&gt;
 &lt;li&gt;Myk (2 commits)&lt;/li&gt;
 &lt;li&gt;Nick To (2 commits)&lt;/li&gt;
@@ -1141,11 +1138,8 @@ Counts reflect commits to 8.5.0 on the openemr/openemr repository.&lt;/p&gt;
 &lt;li&gt;Asher Densmore-Lynn (1 commit)&lt;/li&gt;
 &lt;li&gt;Chris Dickman (1 commit)&lt;/li&gt;
 &lt;li&gt;Craig Allen (1 commit)&lt;/li&gt;
-&lt;li&gt;Cursor (1 commit)&lt;/li&gt;
 &lt;li&gt;Jmevorach (1 commit)&lt;/li&gt;
 &lt;li&gt;Luis Miguel Santos (1 commit)&lt;/li&gt;
 &lt;li&gt;Micky Tomar (1 commit)&lt;/li&gt;
 &lt;li&gt;Sherwin Gaddis (1 commit)&lt;/li&gt;
-&lt;li&gt;Warp (1 commit)&lt;/li&gt;
-&lt;li&gt;craigrallen (1 commit)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
